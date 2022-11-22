@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
   spec.version      = "1.0"
   spec.summary      = "This library contains algorithm to generate HCT(Hue, Chroma, Tone) colors."
   spec.description  = <<-DESC
-    This library contains algorithm to generate HCT(Hue, Chroma, Tone) colors. We can use this library to generate colors of different tone for a given color.
+  The origin for these logic came from this repository: https://github.com/material-foundation/material-color-utilities. This library contains algorithm to generate HCT(Hue, Chroma, Tone) colors. We can use this library to generate colors of different tone for a given color.
                    DESC
 
   spec.homepage     = "https://github.com/MArman88/HCTSolver"
