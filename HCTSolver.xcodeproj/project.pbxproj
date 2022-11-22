@@ -13,7 +13,39 @@
 		C2E2813C292CD7D900EF0F18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E2813A292CD7D900EF0F18 /* Main.storyboard */; };
 		C2E2813E292CD7DA00EF0F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E2813D292CD7DA00EF0F18 /* Assets.xcassets */; };
 		C2E28141292CD7DA00EF0F18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E2813F292CD7DA00EF0F18 /* LaunchScreen.storyboard */; };
+		C2E28153292CD80300EF0F18 /* HCTSolverLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E2814D292CD80300EF0F18 /* HCTSolverLib.framework */; };
+		C2E28154292CD80300EF0F18 /* HCTSolverLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2E2814D292CD80300EF0F18 /* HCTSolverLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C2E28161292CDEB400EF0F18 /* Cam16.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E2815A292CDEB400EF0F18 /* Cam16.swift */; };
+		C2E28162292CDEB400EF0F18 /* HctSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E2815B292CDEB400EF0F18 /* HctSolver.swift */; };
+		C2E28163292CDEB400EF0F18 /* Hct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E2815C292CDEB400EF0F18 /* Hct.swift */; };
+		C2E28164292CDEB400EF0F18 /* ViewingConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E2815D292CDEB400EF0F18 /* ViewingConditions.swift */; };
+		C2E28165292CDEB400EF0F18 /* MathUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E2815F292CDEB400EF0F18 /* MathUtils.swift */; };
+		C2E28166292CDEB400EF0F18 /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E28160292CDEB400EF0F18 /* ColorUtils.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2E28151292CD80300EF0F18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E28129292CD7D900EF0F18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2E2814C292CD80300EF0F18;
+			remoteInfo = HCTSolverLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C2E28158292CD80300EF0F18 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C2E28154292CD80300EF0F18 /* HCTSolverLib.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C2E28131292CD7D900EF0F18 /* HCTSolver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCTSolver.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +56,26 @@
 		C2E2813D292CD7DA00EF0F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2E28140292CD7DA00EF0F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2E28142292CD7DA00EF0F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E2814D292CD80300EF0F18 /* HCTSolverLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HCTSolverLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E2815A292CDEB400EF0F18 /* Cam16.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cam16.swift; sourceTree = "<group>"; };
+		C2E2815B292CDEB400EF0F18 /* HctSolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HctSolver.swift; sourceTree = "<group>"; };
+		C2E2815C292CDEB400EF0F18 /* Hct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hct.swift; sourceTree = "<group>"; };
+		C2E2815D292CDEB400EF0F18 /* ViewingConditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewingConditions.swift; sourceTree = "<group>"; };
+		C2E2815F292CDEB400EF0F18 /* MathUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathUtils.swift; sourceTree = "<group>"; };
+		C2E28160292CDEB400EF0F18 /* ColorUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
+		C2E28167292CE36900EF0F18 /* HCTSolverLib.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = HCTSolverLib.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C2E2812E292CD7D900EF0F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E28153292CD80300EF0F18 /* HCTSolverLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E2814A292CD80300EF0F18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,7 +88,9 @@
 		C2E28128292CD7D900EF0F18 = {
 			isa = PBXGroup;
 			children = (
+				C2E28167292CE36900EF0F18 /* HCTSolverLib.podspec */,
 				C2E28133292CD7D900EF0F18 /* HCTSolver */,
+				C2E2814E292CD80300EF0F18 /* HCTSolverLib */,
 				C2E28132292CD7D900EF0F18 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				C2E28131292CD7D900EF0F18 /* HCTSolver.app */,
+				C2E2814D292CD80300EF0F18 /* HCTSolverLib.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,7 +118,46 @@
 			path = HCTSolver;
 			sourceTree = "<group>";
 		};
+		C2E2814E292CD80300EF0F18 /* HCTSolverLib */ = {
+			isa = PBXGroup;
+			children = (
+				C2E28159292CDEB400EF0F18 /* hct */,
+				C2E2815E292CDEB400EF0F18 /* Utils */,
+			);
+			path = HCTSolverLib;
+			sourceTree = "<group>";
+		};
+		C2E28159292CDEB400EF0F18 /* hct */ = {
+			isa = PBXGroup;
+			children = (
+				C2E2815A292CDEB400EF0F18 /* Cam16.swift */,
+				C2E2815B292CDEB400EF0F18 /* HctSolver.swift */,
+				C2E2815C292CDEB400EF0F18 /* Hct.swift */,
+				C2E2815D292CDEB400EF0F18 /* ViewingConditions.swift */,
+			);
+			path = hct;
+			sourceTree = "<group>";
+		};
+		C2E2815E292CDEB400EF0F18 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C2E2815F292CDEB400EF0F18 /* MathUtils.swift */,
+				C2E28160292CDEB400EF0F18 /* ColorUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C2E28148292CD80300EF0F18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		C2E28130292CD7D900EF0F18 /* HCTSolver */ = {
@@ -77,15 +167,35 @@
 				C2E2812D292CD7D900EF0F18 /* Sources */,
 				C2E2812E292CD7D900EF0F18 /* Frameworks */,
 				C2E2812F292CD7D900EF0F18 /* Resources */,
+				C2E28158292CD80300EF0F18 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C2E28152292CD80300EF0F18 /* PBXTargetDependency */,
 			);
 			name = HCTSolver;
 			productName = HCTSolver;
 			productReference = C2E28131292CD7D900EF0F18 /* HCTSolver.app */;
 			productType = "com.apple.product-type.application";
+		};
+		C2E2814C292CD80300EF0F18 /* HCTSolverLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E28155292CD80300EF0F18 /* Build configuration list for PBXNativeTarget "HCTSolverLib" */;
+			buildPhases = (
+				C2E28148292CD80300EF0F18 /* Headers */,
+				C2E28149292CD80300EF0F18 /* Sources */,
+				C2E2814A292CD80300EF0F18 /* Frameworks */,
+				C2E2814B292CD80300EF0F18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HCTSolverLib;
+			productName = HCTSolverLib;
+			productReference = C2E2814D292CD80300EF0F18 /* HCTSolverLib.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +208,9 @@
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					C2E28130292CD7D900EF0F18 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					C2E2814C292CD80300EF0F18 = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
@@ -116,6 +229,7 @@
 			projectRoot = "";
 			targets = (
 				C2E28130292CD7D900EF0F18 /* HCTSolver */,
+				C2E2814C292CD80300EF0F18 /* HCTSolverLib */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +242,13 @@
 				C2E28141292CD7DA00EF0F18 /* LaunchScreen.storyboard in Resources */,
 				C2E2813E292CD7DA00EF0F18 /* Assets.xcassets in Resources */,
 				C2E2813C292CD7D900EF0F18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E2814B292CD80300EF0F18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +265,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C2E28149292CD80300EF0F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E28163292CDEB400EF0F18 /* Hct.swift in Sources */,
+				C2E28164292CDEB400EF0F18 /* ViewingConditions.swift in Sources */,
+				C2E28162292CDEB400EF0F18 /* HctSolver.swift in Sources */,
+				C2E28166292CDEB400EF0F18 /* ColorUtils.swift in Sources */,
+				C2E28161292CDEB400EF0F18 /* Cam16.swift in Sources */,
+				C2E28165292CDEB400EF0F18 /* MathUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2E28152292CD80300EF0F18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2E2814C292CD80300EF0F18 /* HCTSolverLib */;
+			targetProxy = C2E28151292CD80300EF0F18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C2E2813A292CD7D900EF0F18 /* Main.storyboard */ = {
@@ -216,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,6 +425,7 @@
 		C2E28146292CD7DA00EF0F18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -293,8 +436,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +455,7 @@
 		C2E28147292CD7DA00EF0F18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -321,8 +466,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,6 +479,66 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2E28156292CD80300EF0F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 35UJ8936GH;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.material.HCTSolverLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2E28157292CD80300EF0F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 35UJ8936GH;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.material.HCTSolverLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -353,6 +559,15 @@
 			buildConfigurations = (
 				C2E28146292CD7DA00EF0F18 /* Debug */,
 				C2E28147292CD7DA00EF0F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2E28155292CD80300EF0F18 /* Build configuration list for PBXNativeTarget "HCTSolverLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E28156292CD80300EF0F18 /* Debug */,
+				C2E28157292CD80300EF0F18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
