@@ -31,7 +31,7 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios, "12.0"
 
-  spec.source       = { :git => "https://github.com/MArman88/HCTSolver", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/MArman88/HCTSolver.git", :tag => "#{spec.version}" }
 
   spec.source_files  = "Classes", "HCTSolverLib/**/*.{swift}"
 end
